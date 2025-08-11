@@ -2,28 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Divyesh Manickam - Portfolio</title>
-  <link rel="stylesheet" href="style2.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
+
 <body>
-  <header class="hero-section">
-    <div class="top-label">Divyesh Manickam</div>
-    <h1>Senior Software Engineer</h1>
-    <p>Ottawa, ON, Canada</p>
+  <header>
+    <a href="#" class="logo">My Portfolio</a>
+    <nav id="navbar">
+      <a href="#" class="active">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Skills</a>
+      <a href="#">Experience</a>
+      <a href="#">Education</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
   </header>
 
-  <main class="profile-container">
-    <div class="profile-image">
-      <img src="WhatsApp Image.jpg" alt="Divyesh Manickam" />
+  <section class="home">
+    <div class="home-img">
+      <img src="WhatsApp Image.jpg" alt="Profile photo of Divyesh" />
     </div>
-    <div class="profile-description">
-      <h2>Hey, I'm Divyesh</h2>
-      <p>I'm a senior software engineer at <a href="https://stripe.com" target="_blank">Stripe</a> on their developer productivity team.</p>
-      <p>Previously I built the <a href="#">command palette</a> at <a href="https://github.com" target="_blank">GitHub</a>.</p>
-      <p>In my free time I like to explore cities – local and afar, play sports, take photos on film, and play a heroic amount of videogames.</p>
+    <div class="home-content">
+      <h1>Hi, It's <span>Divyesh</span></h1>
+      <p>A Programmer of C, C++, Java, Python and also a web designer</p>
+      <p>SASTRA student 2nd Year</p>
+      <p>I can build any Website</p>
+
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/19KpXwsJWj/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+        <a href="https://t.me/+917010888897"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.instagram.com/divyesh.manickam?igsh=ZjB3Z2E4bTdlbGNp&utm_source=qr"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/divyesh-manickam"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <a href="#" class="btn">Hire me</a>
     </div>
-  </main>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("action");
+    }
+  </script>
 </body>
 </html>
