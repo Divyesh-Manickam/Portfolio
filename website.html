@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">My Portfolio</a>
+    <nav id="navbar">
+      <a href="#" class="active">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Skills</a>
+      <a href="#">Experience</a>
+      <a href="#">Education</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="home-img">
+      <img src="WhatsApp Image.jpg" alt="Profile photo of Divyesh" />
+    </div>
+    <div class="home-content">
+      <h1>Hi, It's <span>Divyesh</span></h1>
+      <p>A Programmer of C, C++, Java, Python and also a web designer</p>
+      <p>SASTRA student 2nd Year</p>
+      <p>I can build any Website</p>
+
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/19KpXwsJWj/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+        <a href="https://t.me/+917010888897"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.instagram.com/divyesh.manickam?igsh=ZjB3Z2E4bTdlbGNp&utm_source=qr"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/divyesh-manickam"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <a href="#" class="btn">Hire me</a>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("action");
+    }
+  </script>
+</body>
+</html>

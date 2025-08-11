@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+.hero-section {
+  background: linear-gradient(to bottom, #5096ec, #f7b7cc);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-section .top-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.hero-section p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.profile-description {
+  max-width: 600px;
+}
+
+.profile-description h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  border-bottom: 2px solid #333;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.profile-description p {
+  margin: 10px 0;
+}
+
+.profile-description a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.profile-description a:hover {
+  text-decoration: underline;
+}
