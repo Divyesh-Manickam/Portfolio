@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio Website</title>
+  <title>Portfolio - Divyesh Manickam G</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
@@ -12,38 +12,115 @@
   <header>
     <a href="#" class="logo">My Portfolio</a>
     <nav id="navbar">
-      <a href="#" class="active">Home</a>
-      <a href="#">Services</a>
-      <a href="#">Skills</a>
-      <a href="#">Experience</a>
-      <a href="#">Education</a>
-      <a href="#">Contact</a>
+      <a href="#home" class="active">Home</a>
+      <a href="#objective">Objective</a>
+      <a href="#skills">Education</a>
+      <a href="#experience">Skills</a>
+      <a href="#education">Experience</a>
+      <a href="#contact">Contact</a>
     </nav>
     <div class="menu-icon" onclick="toggleMenu()">
       <i class="fas fa-bars"></i>
     </div>
   </header>
 
-  <section class="home">
+  <!-- Home Section -->
+  <section class="home" id="home">
     <div class="home-img">
       <img src="WhatsApp Image.jpg" alt="Profile photo of Divyesh" />
     </div>
     <div class="home-content">
-      <h1>Hi, It's <span>Divyesh</span></h1>
-      <p>A Programmer of C, C++, Java, Python and also a web designer</p>
-      <p>SASTRA student 2nd Year</p>
-      <p>I can build any Website</p>
+      <h1>Hi, It's <span>Divyesh Manickam G</span></h1>
+      <p>Information Technology Student | Programmer | Aspiring Full Stack Developer</p>
+      <p>D.O.B: 25/04/2006 | +91 7010888897 | 127015024@sastra.ac.in</p>
 
       <div class="social-icons">
-        <a href="https://www.facebook.com/share/19KpXwsJWj/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
-        <a href="https://t.me/+917010888897"><i class="fab fa-telegram"></i></a>
-        <a href="https://www.instagram.com/divyesh.manickam?igsh=ZjB3Z2E4bTdlbGNp&utm_source=qr"><i class="fab fa-instagram"></i></a>
         <a href="https://www.linkedin.com/in/divyesh-manickam"><i class="fab fa-linkedin"></i></a>
       </div>
 
-      <a href="#" class="btn">Hire me</a>
+      <a href="#contact" class="btn">Hire me</a>
     </div>
   </section>
+
+  <!-- Objective -->
+  <section id="objective">
+    <h2>Objective</h2>
+    <p>
+      Information Technology student with strong foundation in programming and database management, seeking
+      opportunities in Full Stack Development and Software Development.
+    </p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <strong>Sastra Deemed University</strong>, Thanjavur, Tamil Nadu (2023 - 2027) <br>
+        B.Tech Information Technology | CGPA: 6.33/10 (till 4th semester)
+      </li>
+      <li>
+        <strong>Mount Litera Zee School</strong>, Trichy, Tamil Nadu (2022 - 2023) <br>
+        Higher Secondary | Percentage: 85.2%
+      </li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <p><strong>Programming Languages:</strong> Python, Java, C, C++</p>
+    <p><strong>Database:</strong> SQL, MongoDB</p>
+    <p><strong>Soft Skills:</strong> Critical Thinking, Project Management, Teamwork, Leadership</p>
+    <p><strong>Areas of Interest:</strong> Full Stack Development, Software Development</p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <strong>Student</strong> (2023 - Present) <br>
+        Sastra Deemed University, Tamil Nadu, India <br>
+        - Currently pursuing B.Tech in Information Technology with focus on programming fundamentals <br>
+        - Developed proficiency in Python, Java, C, and C++ <br>
+        - Hands-on experience with SQL and MongoDB
+      </li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Academic Projects – Worked on programming projects focusing on application of programming languages and database concepts.</li>
+      <li>Database Projects – Implemented database solutions using SQL and MongoDB.</li>
+      <li>Programming Challenges – Regularly solve coding problems to strengthen problem-solving skills.</li>
+    </ul>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <h2>Leadership & Achievements</h2>
+    <ul>
+      <li>Demonstrated leadership skills through team projects and group assignments.</li>
+      <li>Achieved 85.2% in Higher Secondary education.</li>
+      <li>Consistently working to improve CGPA and technical skills.</li>
+      <li>Active participation in collaborative learning and peer mentoring activities.</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><i class="fas fa-phone"></i> +91 7010888897</p>
+    <p><i class="fas fa-envelope"></i> 127015024@sastra.ac.in</p>
+    <p><i class="fas fa-map-marker-alt"></i> Trichy, Tamil Nadu, India</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Divyesh Manickam G | All Rights Reserved</p>
+  </footer>
 
   <script>
     function toggleMenu() {
@@ -52,5 +129,3 @@
   </script>
 </body>
 </html>
-
-
